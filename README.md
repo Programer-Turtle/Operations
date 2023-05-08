@@ -1,5 +1,5 @@
 # Operations
-Importable python file as long as its in the samefold as python file
+Importable python file as long as its in the samefold as main project file
 examples
 operations.add(2,2,2)
 result would be 6
