@@ -14,3 +14,6 @@ result would be 8
 
 operations.divide(2,2,2)
 result would be 0.5
+
+operations.exponent(2, 3)
+result would be 8
