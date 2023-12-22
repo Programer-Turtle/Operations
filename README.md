@@ -1,19 +1,32 @@
 # Operations
-Importable python file as long as its in the samefold as main project file.
 
-examples:
+This Python module provides basic mathematical operations.
 
-operations.add(2,2,2)
-result would be 6
+## Usage
 
-operations.subtract(2,2,2)
-result would be -2
+Import the `operations` module into your Python script as long as it's in the same folder as the main project file.
 
-operations.multiply(2,2,2)
-result would be 8
+### Examples:
 
-operations.divide(2,2,2)
-result would be 0.5
+```python
+import operations
 
-operations.exponent(2, 3)
-result would be 8
+# Addition
+result_add = operations.add(2, 2, 2)
+# Result: 6
+
+# Subtraction
+result_subtract = operations.subtract(2, 2, 2)
+# Result: -2
+
+# Multiplication
+result_multiply = operations.multiply(2, 2, 2)
+# Result: 8
+
+# Division
+result_divide = operations.divide(2, 2, 2)
+# Result: 0.5
+
+# Exponentiation
+result_exponent = operations.exponent(2, 3)
+# Result: 8
